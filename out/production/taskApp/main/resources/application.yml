@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/taskdb
+jpa:
+  hibernate:
+    ddl-auto: create
